@@ -13,14 +13,11 @@ def main():
     status = r.status_code
     r_json = r.json()
 
+    display_info = ["postcode", "longitude", "latitude"]
+
     if status == requests.codes.ok:
-        for k, v in r_json["result"].items():
-            if isinstance(v, dict):
-                print(f"{k.capitalize()}:")
-                for x, y in v.items():
-                    print(f"    {x.capitalize()}: {y}")
-            else:
-                print(f"{k.capitalize()}: {v}")
+        for i in display_info:
+            print(f"{i.capitalize()}: {r_json['result'][i]}")
     else:
         print(r_json["error"])
 
