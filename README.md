@@ -17,3 +17,10 @@
   - To find out if the web is live
   - To handle the user as per the response from the web
   - Meeting the user's expectation
+
+## CRUD
+
+- Create
+- Read
+- Update
+- Delete
