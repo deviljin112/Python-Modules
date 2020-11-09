@@ -24,3 +24,16 @@
 - Read
 - Update
 - Delete
+
+## JSON
+
+- Java Script Object Notation
+- Dictionary-based language
+- Use cases
+  - Browser data
+  - Key-Value Data
+  - Dictionary to Json Encoding / Decoding
+  - Persistent data
+- Handling / Creating files with python
+- Writing to a file
+- Reading from a file
