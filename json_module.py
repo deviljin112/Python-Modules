@@ -1,5 +1,7 @@
+# Imports JSON Module
 import json
 
+# Creates sample dictionary
 car_data = {
     "Name": "Tesla",
     "Engine": "Electric",
