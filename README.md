@@ -9,6 +9,19 @@
   - `pip install <package_name>`
 - APIs with Python
 
+## Lesson breakdown
+
+- [OS Module](os_module.py)
+- [Math and Random](math_and_random.py)
+- [JSON Module](json_module.py)
+- [HTTP Requests](http_requests.py)
+
+### Tasks
+
+- [PostCode Task](postcode_task.py)
+- [PostCode All Data Task](postcode_alldata.py)
+- [Exception Handling and JSON](Exception_handling_task.py)
+
 ## PIP
 
 - Package manager for Python that helps us install external packages such as `requests`
