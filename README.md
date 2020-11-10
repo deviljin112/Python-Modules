@@ -65,3 +65,51 @@
 | "t"  | Text mode. Default mode similar to read                                        |
 | "b"  | Binary mode.                                                                   |
 | "+"  | This will open the file for reading and writing                                |
+
+## Exception Handling
+
+Used when we expect an error from python interpreter.
+
+- `try:`
+  - Attempts to execute the code block
+- `except:`
+  - If the Try code block raises an error perform this block instead
+- `else:`
+  - If there is no issue, execute this block after Try:
+- `finally:`
+  - Regardless of above result execute this block
+- `raise Exception("<message>")`
+  - Raises a custom error, for controlled error calls
+
+### Iteration 1
+
+Simple error handling, with uninteresting feedback message. Not relevant or specific.
+
+```python
+try:
+    some_file = open("orders.text")
+except:
+    print("There was an error!")
+```
+
+### Iteration 2
+
+Much more explicit error handling, with specfic error message and handling specific error codes. Lots of user feedback for the user to be able to identify the issue.
+
+```python
+# Use try block when we know there might be an error
+try:
+    file_data = open("orders.text")  # => Error
+
+# Catch the specific error and print a custom message
+except FileNotFoundError as error_msg:  # Alias the error message to a variable
+    print(f"File does not exist!\n{error_msg}")
+
+# If there is no error do something with that variable
+else:
+    print(file_data)
+
+# Regardless of the above result, always run this block at the end
+finally:
+    print("End of function")
+```
