@@ -3,7 +3,10 @@
 - Built in functions
 - PyPi Library
 - What is `pip`
+  - Package Manager for Python
+  - Used to install external packages
 - How to use `pip`
+  - `pip install <package_name>`
 - APIs with Python
 
 ## PIP
@@ -37,3 +40,15 @@
 - Handling / Creating files with python
 - Writing to a file
 - Reading from a file
+
+## Handling files and premissions
+
+| Mode | Description                                                                    |
+| ---- | ------------------------------------------------------------------------------ |
+| "r"  | Default mode. Used for just reading files                                      |
+| "w"  | Write permissions. Used to Update/Write into a file.                           |
+| "x"  | Creates a new file. Fails if exists                                            |
+| "a"  | Appends into a file (adds to the end). If file doesn't exist creates a new one |
+| "t"  | Text mode. Default mode similar to read                                        |
+| "b"  | Binary mode.                                                                   |
+| "+"  | This will open the file for reading and writing                                |
