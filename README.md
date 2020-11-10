@@ -15,6 +15,7 @@
 - [Math and Random](math_and_random.py)
 - [JSON Module](json_module.py)
 - [HTTP Requests](http_requests.py)
+- [Exception Handling](exception_handling.py)
 
 ### Tasks
 
